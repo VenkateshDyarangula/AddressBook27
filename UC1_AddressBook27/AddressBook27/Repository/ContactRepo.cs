@@ -8,7 +8,7 @@ namespace AddressBook27.Repository
 {
     class ContactRepo
     {
-        public static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=addressBook27DB;Integrated Security=True";
+        public static string connectionString = @"Data Source=.;Initial Catalog=AddressBook27DB;Integrated Security=True";
 
 
         public bool GetBookByName(string bookName)
